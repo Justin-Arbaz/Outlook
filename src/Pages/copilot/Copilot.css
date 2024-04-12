@@ -1,0 +1,20 @@
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+.banner .text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.banner .hero{
+    justify-content: end;
+    display: flex;
+}
+.banner .hero img{
+    width: 800px;
+    height: 100%;
+}

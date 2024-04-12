@@ -1,0 +1,32 @@
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.banner .text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.banner .text h1{
+    font-size: 58px;
+}
+
+.banner .hero{
+    justify-content: end;
+    display: flex;
+}
+@media only screen and (max-width: 1400px) {
+    .banner .text h1{
+        font-size: 34px;
+    }
+    .banner .text h5{
+        font-size: 24px !important;
+    }
+    .banner .main-banner{
+        padding: 30px !important;
+    }
+}

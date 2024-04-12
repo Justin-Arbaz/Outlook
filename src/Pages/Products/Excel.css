@@ -1,0 +1,41 @@
+.product img{
+    width: 100%;
+    height: auto;
+    /* background-image: url(../images/Story-blade-apps_1902x700@2x_RE4slnO.jpg); */
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+.product{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.product-text{
+    position: absolute;
+    top: 35%;
+    left: 8%;
+}
+.product .word2{
+    display: none;
+}
+.product .word{
+    display: block;
+}
+@media only screen and (max-width: 768px) {
+    .product .word2{
+        display: block;
+    }
+    .product .word{
+        display: none;
+    }
+    
+    .product-text{
+        position: relative;
+        top: 0px;
+        left: 0px;
+        margin-top: 30px;
+        padding-left: 20px;
+        
+    }
+    
+}

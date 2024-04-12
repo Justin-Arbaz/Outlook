@@ -1,0 +1,14 @@
+.footer-main{
+    background: #f2f2f2;
+    padding: 36px 80px;
+}
+.list-heading{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #616161;
+    font-weight: 600;
+}
+.list-text{
+    font-size: 11px;
+    padding: 8px 0px;
+}

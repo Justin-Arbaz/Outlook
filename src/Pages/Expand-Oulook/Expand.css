@@ -1,0 +1,41 @@
+.ExpandOutlook img{
+    width: 100%;
+    height: auto;
+    /* background-image: url(../images/Story-blade-apps_1902x700@2x_RE4slnO.jpg); */
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+.ExpandOutlook{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.ExpandOutlook-text{
+    position: absolute;
+    top: 35%;
+    right: 8%;
+}
+.ExpandOutlook .screen2{
+    display: none;
+}
+.ExpandOutlook .screen{
+    display: block;
+}
+
+@media only screen and (max-width: 768px) {
+    .ExpandOutlook .screen2{
+        display: block;
+    }
+    .ExpandOutlook .screen{
+        display: none;
+    }
+    .ExpandOutlook-text{
+        position: relative;
+        top: 0px;
+        right: 0px;
+        margin-top: 30px;
+        padding-left: 20px;
+        
+    }
+    
+}

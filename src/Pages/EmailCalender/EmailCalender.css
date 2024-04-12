@@ -1,0 +1,22 @@
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+.banner .text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 90px;
+}
+
+
+
+.banner .hero{
+    justify-content: end;
+    display: flex;
+}
+.banner .hero img{
+    width: 860px;
+    height: 100%;
+    object-fit: cover;
+}
